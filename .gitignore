@@ -1,0 +1,24 @@
+# Données lourdes (brutes et traitées)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.xlsx
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Systèmes & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
